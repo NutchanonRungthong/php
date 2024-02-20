@@ -47,7 +47,8 @@
         }
 
         input[type="text"],
-        textarea {
+        textarea,
+        input[type="date"] {
             width: calc(100% - 18px); /* ปรับขนาดและรูปร่างของช่องกรอกข้อมูล */
             padding: 8px;
             margin: 5px 0 15px 0;
@@ -95,6 +96,10 @@
             <tr>
                 <td>เบอร์โทร : </td>
                 <td><input type="text" name="pNum" size="20" value="" /></td>
+            </tr>
+            <tr>
+                <td>วันเกิด : </td>
+                <td><input type="date" name="birthday" required /></td>
             </tr>
             <tr>
                 <td>งานอดิเรก : </td>
